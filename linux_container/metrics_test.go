@@ -134,6 +134,7 @@ total_unevictable 28
 					TotalInactiveFile:       26,
 					TotalActiveFile:         27,
 					TotalUnevictable:        28,
+					TotalBytesUsed:          (17 + 16 - 26),
 				}))
 
 			})

@@ -115,6 +115,8 @@ func parseMemoryStat(contents string) (stat garden.ContainerMemoryStat) {
 		}
 	}
 
+	stat.TotalBytesUsed = stat.TotalRss + stat.TotalCache - stat.TotalInactiveFile
+
 	return
 }
 
